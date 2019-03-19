@@ -18,7 +18,7 @@
 <header class="wrap-header ">
 	<div class="wrap-content header-search-result relative">
     	<div class="con-flex relative">
-            <img src="images/logo-pencarian.png" class="logo-home fleft" />
+            <img src="images/logo-dirjen.png" class="logo-home fleft" />
             <div class="box-schr-result">
             <form>
                 <div class="tmpt-sch2">
@@ -51,7 +51,7 @@
     
     <div class="wrap-content header-mobile">
     	<div class="list-lr">
-            <img src="images/logo-pencarian.png" class="logo-home fleft" />
+            <img src="images/logo-dirjen.png" class="logo-home fleft" />
             <i class="fa fa-bars fs28 fright mar-t-2 tmb-open-menu"></i>
             <a href="#" class="link-black"><i class="fa fa-search fs26 fright mar-t-2 mar-r-15"></i></a>
             <div class="clear-all"></div>
@@ -81,25 +81,30 @@
 	<div class="high-25"></div>
 	<h1 class=" ff-lato-r f-bold fs28 list-lr">Pencarian Lebih Detail</h1>
     <div class="high-25"></div>
-   <div class="fs14 f-bold color-bluelight t-uppercase list-lr">Pilih Kategori :</div>
-   <div class="nav list-lr pad-tb-10 bor-bot" id="myTab" role="tablist">
-        <a class="fs14 link-black mar-r-10" id="katalog-perpus-tab" data-toggle="tab" href="#katalog-perpus" role="tab" 
-        aria-controls="katalog-perpus" aria-selected="true">Katalog Perpustakaan</a>
-        <a class="fs14 link-black mar-r-10" id="repo-institusi-tab" data-toggle="tab" href="#repo-institusi" role="tab" 
-        aria-controls="repo-institusi" aria-selected="false">Repositori Institusi</a>
-        <a class="fs14 link-black" id="kliping-tab" data-toggle="tab" href="#kliping" role="tab" 
-        aria-controls="kliping" aria-selected="false">Kliping</a>
-    </div>
-    
-    <div class="tab-content" id="myTabContent">
-      <div class="tab-pane fade show active" id="katalog-perpus" role="tabpanel" aria-labelledby="katalog-perpus-tab">
-      	<div class="high-15"></div>
-        <form>     
-        <div class=" wrap-bleft3 mar-tb-5">
-        	<div class="fs14 color-bluelight mar-t-5">Judul koleksi :</div>
+   <form>
+   		<div class=" wrap-bleft3 mar-tb-5">
+        	<div class="fs14 color-bluelight mar-t-5">Pilih Kategori :</div>
         </div>
         <div class=" wrap-bright3 mar-tb-5">
-        	<input type="text" class="form-control" name="judul" placeholder="Judul Koleksi" />
+        	<div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="katalog-perpustakaan" value="option1">
+              <label class="form-check-label" for="katalog-perpustakaan">Katalog Perpustakaan</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="repositori-institusi" value="option2">
+              <label class="form-check-label" for="repositori-institusi">Repositori Institusi</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="kliping" value="option3">
+              <label class="form-check-label" for="kliping">Kliping</label>
+            </div>
+        </div>    
+        <div class="clear-all"></div> 
+        <div class=" wrap-bleft3 mar-tb-5">
+        	<div class="fs14 color-bluelight mar-t-5">Judul / Keyword :</div>
+        </div>
+        <div class=" wrap-bright3 mar-tb-5">
+        	<input type="text" class="form-control" name="judul" placeholder="Judul / Keyword" />
         </div>
         <div class="clear-all"></div>
         <div class=" wrap-bleft3 mar-tb-5">
@@ -148,130 +153,7 @@
         </div>
         <div class="clear-all"></div>             
         
-        </form>      
-      </div>
-      <div class="tab-pane fade" id="repo-institusi" role="tabpanel" aria-labelledby="repo-institusi-tab">
-      
-      <div class="high-15"></div>
-        <form>     
-        <div class=" wrap-bleft3 mar-tb-5">
-        	<div class="fs14 color-bluelight mar-t-5">Judul Repositori :</div>
-        </div>
-        <div class=" wrap-bright3 mar-tb-5">
-        	<input type="text" class="form-control" name="judul" placeholder="Judul Repositori" />
-        </div>
-        <div class="clear-all"></div>
-        <div class=" wrap-bleft3 mar-tb-5">
-        	<div class="fs14 color-bluelight mar-t-5">Pengarang :</div>
-        </div>
-        <div class=" wrap-bright3 mar-tb-5">
-        	<input type="text" class="form-control" name="pengarang" placeholder="Pengarang" />
-        </div>
-        <div class="clear-all"></div>
-         <div class=" wrap-bleft3 mar-tb-5">
-        	<div class="fs14 color-bluelight mar-t-5">Subject :</div>
-        </div>
-        <div class=" wrap-bright3 mar-tb-5">
-        	<input type="text" class="form-control" name="subject" placeholder="Subject" />
-        </div>
-        <div class="clear-all"></div> 
-        <div class=" wrap-bleft3 mar-tb-5">
-        	<div class="fs14 color-bluelight mar-t-5">Tahun Terbit :</div>
-        </div>
-        <div class=" wrap-bright3 mar-tb-5">
-        	<select class="form-control" name="tahun-terbit">
-              <option>2018</option>
-              <option>2017</option>
-              <option>2016</option>
-              <option>2015</option>
-              <option>2014</option>
-            </select>
-        </div>
-        <div class="clear-all"></div>
-        <div class=" wrap-bleft3 mar-tb-5">
-        	<div class="fs14 color-bluelight mar-t-5">Bahasa :</div>
-        </div>
-        <div class=" wrap-bright3 mar-tb-5">
-        	<select class="form-control" name="bahasa">
-              <option>Bahasa Indonesia</option>
-              <option>Bahasa Inggris</option>
-              <option>Lainnya</option>
-            </select>
-        </div>
-        <div class="clear-all"></div> 
-        <div class=" wrap-bleft3 mar-tb-5">
-        	<div class="fs14 color-bluelight mar-t-5">&nbsp;</div>
-        </div>
-        <div class=" wrap-bright3 mar-tb-5">
-        	<button type="submit" class="btn btn-warning">Cari</button>
-        </div>
-        <div class="clear-all"></div>             
-        
-        </form>      
-      
-      </div>
-      <div class="tab-pane fade" id="kliping" role="tabpanel" aria-labelledby="kliping-tab">
-      
-      <div class="high-15"></div>
-        <form>     
-        <div class=" wrap-bleft3 mar-tb-5">
-        	<div class="fs14 color-bluelight mar-t-5">Judul kliping :</div>
-        </div>
-        <div class=" wrap-bright3 mar-tb-5">
-        	<input type="text" class="form-control" name="judul" placeholder="Judul kliping" />
-        </div>
-        <div class="clear-all"></div>
-        <div class=" wrap-bleft3 mar-tb-5">
-        	<div class="fs14 color-bluelight mar-t-5">Pengarang :</div>
-        </div>
-        <div class=" wrap-bright3 mar-tb-5">
-        	<input type="text" class="form-control" name="pengarang" placeholder="Pengarang" />
-        </div>
-        <div class="clear-all"></div>
-         <div class=" wrap-bleft3 mar-tb-5">
-        	<div class="fs14 color-bluelight mar-t-5">lokasi unit :</div>
-        </div>
-        <div class=" wrap-bright3 mar-tb-5">
-        	<input type="text" class="form-control" name="lokasi" placeholder="lokasi unit" />
-        </div>
-        <div class="clear-all"></div> 
-        <div class=" wrap-bleft3 mar-tb-5">
-        	<div class="fs14 color-bluelight mar-t-5">Tahun Terbit :</div>
-        </div>
-        <div class=" wrap-bright3 mar-tb-5">
-        	<select class="form-control" name="tahun-terbit">
-              <option>2018</option>
-              <option>2017</option>
-              <option>2016</option>
-              <option>2015</option>
-              <option>2014</option>
-            </select>
-        </div>
-        <div class="clear-all"></div>
-        <div class=" wrap-bleft3 mar-tb-5">
-        	<div class="fs14 color-bluelight mar-t-5">Bahasa :</div>
-        </div>
-        <div class=" wrap-bright3 mar-tb-5">
-        	<select class="form-control" name="bahasa">
-              <option>Bahasa Indonesia</option>
-              <option>Bahasa Inggris</option>
-              <option>Lainnya</option>
-            </select>
-        </div>
-        <div class="clear-all"></div> 
-        <div class=" wrap-bleft3 mar-tb-5">
-        	<div class="fs14 color-bluelight mar-t-5">&nbsp;</div>
-        </div>
-        <div class=" wrap-bright3 mar-tb-5">
-        	<button type="submit" class="btn btn-warning">Cari</button>
-        </div>
-        <div class="clear-all"></div>             
-        
-        </form>
-      
-      
-      </div>
-    </div>
+        </form> 
 
 
 

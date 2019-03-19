@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/pencarian-tu.css">
+<link rel="stylesheet" href="css/swiper.css">
+<link rel="stylesheet" href="css/style-by-v3.2.7.css">
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+
+
+<title>Layanan Pencarian TU - DIKDASMEN KEMDIKBUD.GO.ID</title>
+</head>
+<body>
+<header class="wrap-header-trans ">
+	<div class="wrap-content con-flex header-desktop-home">
+    	<img src="images/logo-dirjen.png" class="logo-home" />
+        <div class=" wrap-menu-desktop">
+        	<div class="txt-menu-desktop">
+            	<ul>
+                	<li><a href="index.html">Beranda</a></li>
+                    <li><a href="tentang-layanan.html">Tentang Layanan</a></li>
+                    <li><a href="pencarian-detail.html">Tata Layanan</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-content header-mobile">
+    	<div class="list-lr">
+            <img src="images/logo-dirjen.png" class="logo-home fleft" />
+            <i class="fa fa-bars fs28 fright mar-t-2 tmb-open-menu"></i>
+            <div class="clear-all"></div>
+    	</div>
+        <div class="wrap-menu-mobile content-menu">
+        	<a href="#"><div class="menu-mobile-close tmb-close-menu"></div></a>
+        	<div class="menu-mobile">
+            	<ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="tentang-layanan.html">Tentang Layanan</a></li>
+                    <li><a href="pencarian-detail.html">Tata Layanan</a></li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+</header>
+
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide bg-1">
+      	<div class="high-100"></div>
+      	<div class="wrap-content">
+        	<div class="row center">
+      			<div class="col-md-6 col-sm-12 mar-b-10">
+                	<h1 class="txt-pencari">Apa yang ingin Anda cari ?</h1>
+                    <p class="mar-t-25">Sistem pencarian ini meliputi : pencarian data katalog perpustakaan, 
+                    data repositori institusi dan data kliping.</p>
+                    
+                    <form>
+                        <div class="tmpt-sch1 bor-all">
+                            <input type="text" class="fleft fs14 srch" placeholder="Masukkan kata kunci pencarian">
+                            <button class=" w-20-pc fleft fs14 btn-srch">
+                            <i class="fa fa-search fs16 mar-r-10"></i><span class="hide450">Cari</span>
+                            </button>
+                            <div class="clear-all"></div>
+                        </div>
+                    </form>
+                    <div class="high-20"></div>
+                    <a href="#"><div class="btn btn-outline-warning fs14 mar-tb-10">Pencarian Lebih Detail<span class="fa fa-arrow-right mar-l-10"></span> </div></a>
+                </div>
+        		<div class="col-md-6 col-sm-12 mar-b-10">
+                	<img src="images/cari-integrasi.png" class="img-fluid center-max" />
+                </div>
+        	</div>
+            <div class="wrap-footer-bootom-new list-lr">
+            Copyright © 2019 Dikdasmen Kemdikbud. All Rights Reserved
+            </div>
+        </div>
+      </div>
+      <div class="swiper-slide bg-2">
+      	<div class="high-100"></div>
+      	<div class="wrap-content">
+        	<div class="row center">
+      			<div class="col-md-6 col-sm-12 mar-b-10">
+                	<h1 class="txt-pencari">Kontak</h1>
+                    <div class="high-50"></div>
+                    <h3>Alamat Lokasi</h3>
+                <p>Kompleks Kemdikbud Gedung E, Lantai 5, Jl. Jenderal Sudirman, Senayan, 
+        Kebayoran Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 10270 <br/>
+        		Telepon: (021) 5725057, 5725061 Faks.: (021) 5725606 | 
+        email : <a href="mailto:chatarina@kemdikbud.go.id?Subject=Hello%kemdikbud" class="link-aaa" target="_top">chatarina@kemdikbud.go.id</a></p>
+                </div>
+        		<div class="col-md-6 col-sm-12 mar-b-10">
+                	<img src="images/kontak-ei.png" class="img-fluid center-max" />
+                </div>
+        	</div>
+            
+            <div class="wrap-footer-bootom-new list-lr">
+            Copyright © 2019 Dikdasmen Kemdikbud. All Rights Reserved
+            </div>
+        </div>
+      
+      
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+        
+
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/main-tu.js"></script>
+
+ <script>
+    var swiper = new Swiper('.swiper-container', {
+      direction: 'vertical',
+	  mousewheel: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+
+</html>
