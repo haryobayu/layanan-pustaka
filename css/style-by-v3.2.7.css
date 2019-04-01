@@ -209,3 +209,12 @@ h1,h2,h3 { font-size:100%; font-weight:normal;}
 .valign-sub { vertical-align:sub !important;}
 .valign-super { vertical-align:super !important;}
 
+/*minimal-height */
+.min-high-100 { min-height:100px !important;}.min-high-300 { min-height:300px !important;}.min-high-500 { min-height:500px !important;}
+.min-high-200 { min-height:200px !important;}.min-high-400 { min-height:400px !important;}.min-high-600 { min-height:600px !important;}
+.min-high-700 { min-height:700px !important;}.min-high-900 { min-height:900px !important;}.min-high-50 { min-height:50px !important;}
+.min-high-800 { min-height:100px !important;}.min-high-1000 { min-height:1000px !important;}.min-high-75 { min-height:75px !important;}
+
+
+
+
